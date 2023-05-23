@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Car List Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Car List Manager is a React-based project that allows you to add car names and costs to your list. You can search for specific cars, view their total costs, and delete cars from the list. When your search term matches any car in the list, the total cost is updated immediately. Additionally, if you add a new car that already exists in your list, that car will be highlighted with bold weight.
+
+## Usage
+
+1. Add cars to the list by entering the car name and cost in the provided input fields. Click the "Submit" button to add the car to the list.
+
+2. To search for a specific car, enter the search term in the search input field. The list will update in real-time to display only the cars that match the search term. The total cost will also update to reflect the costs of the displayed cars.
+
+3. To delete a car from the list, click the "Delete" button next to the car you want to remove. The car will be removed from the list, and the total cost will be updated accordingly.
+
+4. If you add a new car that already exists in the list, that car will be highlighted with bold weight to indicate the duplication.
+
+## Technologies Used
+
+- HTML
+
+- CSS
+
+- JavaScript
+
+- React
+
+- Bulma: A lightweight CSS framework for styling the application.
+
+- Redux Toolkit: A toolset for efficient Redux development.
+
+- React-Redux: Official React bindings for Redux.
 
 ## Available Scripts
 
